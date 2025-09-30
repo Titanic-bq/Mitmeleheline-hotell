@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*main */
+
 html,body {
     font-family: 'Segoe UI', 'Tahoma', 'Verdana', 'sans-serif' ;
     line-height: 1.7em;
@@ -14,7 +16,7 @@ a {
     color: #333;
 }
 
-h1 {
+h1,h2 {
     padding-bottom: 20px;
 }
 /* content basic style*/
@@ -32,11 +34,24 @@ text-primary {
     font-size: 10px;
     background: #333;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
 }
-/* navbar */
+.btn:hover {
+    background: #333;
+    color: #fff;
+}
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
 
+.bg-dark {
+    background:#333;
+    color: #fff;
+/* navbar */
+}
 #navbar {
     background-color: #333;
     color: #fff;
@@ -70,7 +85,7 @@ text-primary {
     }
     /* showcase */
 #showcase {
-    background: url("../pildid/showcase.jpg") no-repeat center center/cover;
+    background: url("../img/showcase.jpg") no-repeat center center/cover;
     height: 600px;
     }
 #showcase .showcase-content {
@@ -86,4 +101,27 @@ text-primary {
 #showcase .showcase-content p {
     padding-bottom:20px;
     line-height: 1.7em; ;
+    }
+
+    /* info */
+#info {
+    height: 400px;
+    }
+    #info, .info-content {
+        float: right;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 50px 30px;
+        overflow: hidden;
+    }
+
+    #info .info-content p {
+        padding-bottom: 30px;
+    }
+    #info .info-img {
+        float: left;
+        width: 50%;
+       min-height: 100%;
+        background: url("../img/photo-1.jpg") no-repeat;
     }
