@@ -216,7 +216,7 @@ footer {
   padding: 10px;
   border: 1px solid #ddd;
 }
-#contact-form .form-group textarea {
+#contact form .form-group textarea {
   height: 200px;
 }
 #contact-form .form-group input:focus,
