@@ -3,8 +3,8 @@
   float: none;
   text-align: center;
 }
-navbar ul,
-navbar ul li {
+#navbar ul,
+#navbar ul li {
   float: none;
 }
 #navbar ul li a {
@@ -27,8 +27,7 @@ navbar ul li {
 #info .info-img {
   display: none;
 }
-#info,
-.info-content {
+#info .info-content {
   float: none;
   width: 100%;
 }
